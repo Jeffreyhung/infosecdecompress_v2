@@ -10,14 +10,26 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 
 // Colors
-$color-base: #222;
-$color-primary: #5D93FF;
-$color-secondary: #F7A046;
+// $color-base: #222;
+// $color-primary: #5D93FF;
+// $color-secondary: #F7A046;
+
+// $color-white: #FFF;
+// $color-gray: lighten($color-base, 40%);
+// $color-gray-border: lighten($color-base, 77%);
+// $color-gray-bg: lighten($color-base, 79%);
+$color-background: var(--color-background, #f9f9f9);
+$color-base: var(--color-base, #222);
+$color-primary: var(--color-primary, #5D93FF);
+$color-secondary: var(--color-secondary, #f7a046);
 
 $color-white: #FFF;
-$color-gray: lighten($color-base, 40%);
-$color-gray-border: lighten($color-base, 77%);
-$color-gray-bg: lighten($color-base, 79%);
+$color-gray:  #888;
+$color-gray-18: #2e2e2e;
+$color-gray-20: #333333;
+$color-gray-border: #e6e6e6;
+$color-gray-bg: #ebebeb;
+
 
 // Typographic
 $typographic-font-family:"Noto Sans", "Noto Sans TC", -apple-system, sans-serif;
